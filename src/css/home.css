@@ -201,7 +201,7 @@
   color: white;
   gap: 10%;
   flex-wrap: wrap;
-  padding-top: 30px;
+  padding-top: 80px;
   font-size: 18px;
 }
 
@@ -254,3 +254,14 @@
     
   }
 }
+
+/* .li1, 
+.li2, 
+.li3, 
+.li4:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  color: #96755f;
+
+} */
+
