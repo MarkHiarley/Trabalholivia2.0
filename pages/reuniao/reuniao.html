@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" 
+</head>
+<body>
+    <header class="cabeçalho">
+        <ul>
+            <li class="sobre">SOBRE</li>
+            <li class="projeto">PROJETOS</li>
+            <li class="ajuda">AJUDA</li>
+            <li class="login">LOGIN</li>
+        </ul>
+    </header>
+    <div class="segundo-cabeçalho">
+        <img src="/src/img/logo.png">
+        <li class="home">Home</li>
+            <li class="recomendação">Recomendações</li>
+            <li class="contato">Contato</li>
+    </div>
+    <div class="barra"></div>
+    <main>
+        <div class="textmain">
+            <p>Visão Geral</p>
+            <h2>Marcar Reunião</h2>
+        </div>
+        <div class="marcar">
+            <div class="data">
+                <label for="date">Data:</label><br>
+                <input type="date" id="start" name="trip-start" value="0000-00-00" min="2024-06-11" max="2024-12-31" />
+            </div>
+            <div class="tipo">
+                <label for="cars">Tipo de reunião:</label>
+                <select name="cars" id="cars">
+                    <option value="apa">APA-Analise e Projeto de Arquitetura</option>
+                    <option value="pi">PI-Planejamento de Interiores</option>
+                    <option value="np">NP-Novo Projeto</option>
+                    <option value="colab">Colaboração</option>
+                </select>
+            </div>
+            <br>
+            <div class="horario">
+                <label for="hora">Horário:</label>
+                <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+            </div>
+            <div class="local">
+                <p>Local:</p>
+                <p>Local Único: Rua José Bispo de Sá, 133</p>
+            </div>
+            <div>
+                <button>COMFIRMAR</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
