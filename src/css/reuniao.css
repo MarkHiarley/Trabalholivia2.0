@@ -22,6 +22,7 @@ body{
     justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 .logo{
     height: 100px;
@@ -71,7 +72,73 @@ body{
     padding: 20px; 
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
   
-  
+    /* .marcar {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        width: 60px; /* Adjust width as needed */
+      /* } */ 
+      
+      .data,
+      .local {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+      
+      .data-hora,
+      .tipo,
+      .local p {
+        margin: 0;
+        padding: 0;
+        
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      .separacao01,
+      .separacao02 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      select {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+      }
+      
+      input[type="date"],
+      input[type="time"] {
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+      }
+      .data-hora{
+        padding-right: 100px;
+        
+      }
+      .tipo{
+        padding-bottom: 30px;
+        padding-top: 30px;
+      }
+      .horario{
+        padding-top: 10px;
+      }
+      .local{
+        padding-top: 200px;
+        padding-right: 5px;
+        width: 300px;
+    }
+    .oiii{
+        padding-top: 30px;
+    }
 
 
 
@@ -83,11 +150,6 @@ body{
 
 
 
-
-
-
-
-    
 
   .botao-confirmar {
     margin-top: 20px; 
@@ -123,4 +185,21 @@ body{
     width: 90px;
     color: #2d2d2d;
     font-size: 20px;
+}
+@media (max-width: 863px){
+  .barra{
+    display: none;
+  }
+  .segundo-cabeçalho{
+    gap: 30px;
+  }
+  .logo{
+    display: none;
+  }
+  .visao-geral{
+    padding: 0%;
+    display: flex;
+    justify-content:center;
+  }
+
 }
