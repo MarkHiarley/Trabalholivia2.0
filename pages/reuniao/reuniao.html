@@ -1,62 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Marque sua Reunião</title>
     <link rel="stylesheet" href="/src/css/reset.css">
-    <link rel="stylesheet" 
-</head>
+    <link rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/reuniao.css">
+    </link>
+
 <body>
     <header class="cabeçalho">
-        <ul>
+        <ul class="menu">
             <li class="sobre">SOBRE</li>
             <li class="projeto">PROJETOS</li>
             <li class="ajuda">AJUDA</li>
-            <li class="login">LOGIN</li>
+
         </ul>
     </header>
     <div class="segundo-cabeçalho">
-        <img src="/src/img/logo.png">
+        <img src="/src/img/logo.png" class="logo">
         <li class="home">Home</li>
-            <li class="recomendação">Recomendações</li>
-            <li class="contato">Contato</li>
+        <li class="recomendação">Recomendações</li>
+        <li class="contato">Contato</li>
     </div>
     <div class="barra"></div>
     <main>
         <div class="textmain">
-            <p>Visão Geral</p>
-            <h2>Marcar Reunião</h2>
+            <p class="visao-geral">Visão Geral</p>
+            <div class="texto-titulo">
+                <p class="texto-marcar-reuniao">Marcar Reunião</p>
+            </div>
         </div>
         <div class="marcar">
             <div class="data">
-                <label for="date">Data:</label><br>
-                <input type="date" id="start" name="trip-start" value="0000-00-00" min="2024-06-11" max="2024-12-31" />
-            </div>
-            <div class="tipo">
-                <label for="cars">Tipo de reunião:</label>
-                <select name="cars" id="cars">
-                    <option value="apa">APA-Analise e Projeto de Arquitetura</option>
-                    <option value="pi">PI-Planejamento de Interiores</option>
-                    <option value="np">NP-Novo Projeto</option>
-                    <option value="colab">Colaboração</option>
-                </select>
-            </div>
-            <br>
-            <div class="horario">
-                <label for="hora">Horário:</label>
-                <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
-            </div>
-            <div class="local">
-                <p>Local:</p>
-                <p>Local Único: Rua José Bispo de Sá, 133</p>
-            </div>
-            <div>
-                <button>COMFIRMAR</button>
+                <div class="separacao01">
+                    <div class="data-hora">
+                        <label for="date">Data:</label>
+                        <input type="date" id="start" name="trip-start" value="0000-00-00" min="2024-06-11"
+                            max="2024-12-31" />
+                        <label for="hora">Horário:</label>
+                        <input type="time" id="appt" name="appt" min="09:00" max="18:00" required />
+                
+                </div>
+                    <div class="tipo">
+                        <label for="cars">Tipo de reunião:</label><br>
+                        <select name="cars" id="cars">
+                            <option value="apa">APA-Analise e Projeto de Arquitetura</option>
+                            <option value="pi">PI-Planejamento de Interiores</option>
+                            <option value="np">NP-Novo Projeto</option>
+                            <option value="colab">Colaboração</option>
+                        </select>
+                    </div>
+                
+                <br>
+                <div class="separacao02">
+                    <div class="local">
+                        <p>Local:</p>
+                        <p>Local Único: Rua José Bispo de Sá, 133</p>
+                    </div>
+                </div>
             </div>
         </div>
-    </main>
+        <div class="butao">
+            <button class="botao-confirmar"><p class="CONFIRMAR">CONFIRMAR</p>  <img src="/src/img/brilho.webp" class="brilho"></img>
+        </div>
 </body>
+
 </html>
