@@ -36,46 +36,11 @@
     height: 17px;
     width: auto;
 }
-#name{
-    border: 2px solid #AC8871;
-    border-radius: 10px;
-    height: 30px;
-    width: 300px;
-    background-color: white;
-}
-.nome{
-    padding-bottom: 9px;
-}
-#email{
-    border: 2px solid #AC8871;
-    border-radius: 10px;
-    height: 30px;
-    width: 300px;
-    background-color: white;
-}
-.email{
-    padding-bottom: 9px;
-}
-#cpf{
-    border: 2px solid #AC8871;
-    border-radius: 10px;
-    height: 30px;
-    width: 300px;
-    background-color: white;
-}
-.cpf{
-    padding-bottom: 9px;
-}
-#tel{
-    border: 2px solid #AC8871;
-    border-radius: 10px;
-    height: 30px;
-    width: 300px;
-    background-color: white;
-}
-.telefone{
-    padding-bottom: 9px;
-}
+
+#name,
+#email,
+#cpf,
+#tel,
 #pwd{
     border: 2px solid #AC8871;
     border-radius: 10px;
@@ -83,6 +48,14 @@
     width: 300px;
     background-color: white;
 }
+
+.nome,
+.email,
+.cpf,
+.telefone{
+    padding-bottom: 9px;
+}
+
 .cadastre{
     border-color: #ac887100;
     background-color: #DDBEA9;
@@ -90,6 +63,7 @@
     height: 30px;
     width: 150px;
     font-size: 18px;
+    
 }
 .lab{
     padding-left: 7px;
@@ -109,3 +83,6 @@
     }
     
   }
+.butao-cadastrese{
+    padding-left: 70px;
+}

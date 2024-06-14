@@ -74,6 +74,12 @@
     font-size: 16px;
     font-family: "jost", sans-serif;
 }
+.lab{
+    padding-left: 7px;
+}
+.email{
+    padding-bottom: 9px;
+}
 input[type="password"] {
     position: relative;
   }
