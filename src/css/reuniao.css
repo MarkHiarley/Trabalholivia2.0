@@ -165,8 +165,11 @@ body{
   }
   
   .botao-confirmar:hover {
-    background-color: #968274;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
   }
+  
 .butao{
     display: flex;
     justify-content: center;

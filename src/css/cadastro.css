@@ -86,3 +86,14 @@
 .butao-cadastrese{
     padding-left: 70px;
 }
+
+.logo:hover{
+    transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.cadastre:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}

@@ -255,16 +255,36 @@
   }
 }
 
-/* .li1, 
-.li2, 
-.li3, 
-.li4:hover {
-  transform: scale(1.05);
-  cursor: pointer;
-  color: #96755f;
 
-} */
 
 body{
   background-color:#f2efea;
+}
+
+.li1:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.li2:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.li3:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.li4:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.botaodebaixo:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  
 }
