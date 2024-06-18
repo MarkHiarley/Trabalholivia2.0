@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marque sua Reunião</title>
+    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/reuniao.css">
+    </link>
+
+<body>
+    <header class="cabeçalho">
+        <ul class="menu">
+            <li class="sobre">SOBRE</li>
+            <a href="/pages/projetcs que tem algo/projeto.html" style="text-decoration: none; color: rgb(255, 255, 255);">
+                <li class="projeto">PROJETOS</li>
+              </a>
+              
+            <li class="ajuda">AJUDA</li>
+
+        </ul>
+    </header>
+    <div class="segundo-cabeçalho">
+        <img src="/src/img/logo.png" class="logo">
+        <li class="home">Home</li>
+        <li class="recomendação">Recomendações</li>
+        <li class="contato">Contato</li>
+    </div>
+    <div class="barra"></div>
+    <main>
+        <div class="textmain">
+            <div class="visao-geral">
+                <p class="visao-geral">Visão Geral</p>
+            </div>
+            <div class="texto-titulo">
+                <p class="texto-marcar-reuniao">Marcar Reunião</p>
+            </div>
+        </div>
+        <div class="marcar">
+            <div class="data">
+                <div class="separacao01">
+                    <div class="data-hora">
+                        <label for="date">Data:</label><br>
+                        <input type="date" id="start" name="trip-start" value="0000-00-00" min="2024-06-11"
+                            max="2024-12-31" />
+                        <br><br>
+                        <label for="hora" class="horario">Horário:</label><br>
+                        <select name="hora" id="hora">
+                            <option value="8">08:00</option>
+                            <option value="10">10:00</option>
+                            <option value="1">13:00</option>
+                            <option value="3">15:00</option>
+                            <option value="5">17:00</option>
+                        </select>
+
+                    </div>
+                    <div class="tipo">
+                        <label for="cars">Tipo de reunião:</label><br>
+                        <select name="cars" id="cars">
+                            <option value="apa">APA-Analise e Projeto de Arquitetura</option>
+                            <option value="pi">PI-Planejamento de Interiores</option>
+                            <option value="np">NP-Novo Projeto</option>
+                            <option value="colab">Colaboração</option>
+                        </select>
+
+                        <p class="oiii">Local:</p>
+                        <p>Local Único: Rua José Bispo de Sá, 133</p>
+                    </div><br>
+
+                    <br>
+                    <div class="separacao02">
+
+                    </div>
+                </div>
+            </div>
+            <div class="butao">
+                <button class="botao-confirmar">
+                    <p class="CONFIRMAR">CONFIRMAR</p> <img src="/src/img/brilho.webp" class="brilho"></img>
+            </div>
+            </a>
+
+</html>

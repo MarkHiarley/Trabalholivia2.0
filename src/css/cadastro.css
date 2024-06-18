@@ -1,0 +1,99 @@
+*{
+    background-color: #F2EFEA;
+}
+.maincadastro{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 208px;
+}
+.esqu{
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #675A51;
+    padding: 80px 80px 80px;
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+.barra{
+    background-color: #DDBEA9;
+    height: 300px;
+    width: 5px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0;
+}
+.dire{
+    padding: 80px 80px 80px;
+}
+.icon{
+    height: 17px;
+    width: auto;
+}
+
+#name,
+#email,
+#cpf,
+#tel,
+#pwd{
+    border: 2px solid #AC8871;
+    border-radius: 10px;
+    height: 30px;
+    width: 300px;
+    background-color: white;
+}
+
+.nome,
+.email,
+.cpf,
+.telefone{
+    padding-bottom: 9px;
+}
+
+.cadastre{
+    border-color: #ac887100;
+    background-color: #DDBEA9;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    font-size: 18px;
+    
+}
+.lab{
+    padding-left: 7px;
+}
+::placeholder{
+    padding-left: 10px;
+}
+@media (max-width: 863px) {
+    .barra {
+      display: none;
+    }
+    .esqu{
+        padding: 80px 80px 1px;
+    }
+    .dire{
+        padding: 25px 80px 80px;
+    }
+    
+  }
+.butao-cadastrese{
+    padding-left: 70px;
+}
+
+.logo:hover{
+    transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.cadastre:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}

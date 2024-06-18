@@ -1,0 +1,213 @@
+body{
+    background-color:#f2efea ;
+}
+.cabeçalho{
+    background: color #ddbea9;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #ddbea9;
+    color: #ffffff;
+    font-size: 20px;
+}
+.segundo-cabeçalho{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+.logo{
+    height: 100px;
+    width: auto;
+}
+.home,
+.recomendação,
+.contato{
+    padding-top: 80px;
+    font-size: 20px;
+    color: #675a51;
+}
+.barra{
+    background-color: #D8CAC1;
+    height: 7px;
+    width: 70%;
+    border: none;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.visao-geral{
+    font-size: 25px;
+    padding-left: 250px;
+    padding-bottom: 10px;
+}
+.texto-titulo{
+    font-size: 30px;
+    background-color: #ddbea9;
+    width: 70%;
+    margin: 10px auto ;
+    border-radius: 3px;
+}
+.texto-marcar-reuniao{
+    padding-left: 70px;
+    color: #2d2d2d;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 70%;
+}
+.marcar {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 60%; 
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); }
+  
+    /* .marcar {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+        width: 60px; /* Adjust width as needed */
+      /* } */ 
+      
+      .data,
+      .local {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+      }
+      
+      .data-hora,
+      .tipo,
+      .local p {
+        margin: 0;
+        padding: 0;
+        
+      }
+      
+      label {
+        font-weight: bold;
+      }
+      
+      .separacao01,
+      .separacao02 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      select {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+      }
+      
+      input[type="date"],
+      input[type="time"] {
+        padding: 5px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+      }
+      .data-hora{
+        padding-right: 100px;
+        
+      }
+      .tipo{
+        padding-bottom: 30px;
+        padding-top: 30px;
+      }
+      .horario{
+        padding-top: 10px;
+      }
+      .local{
+        padding-top: 200px;
+        padding-right: 5px;
+        width: 300px;
+    }
+    .oiii{
+        padding-top: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+  .botao-confirmar {
+    margin-top: 20px; 
+    padding: 10px 20px; 
+    background-color: #ddbea9;
+    color: #fff; 
+    border: none; 
+    cursor: pointer;
+    border-radius:30px;
+    width: 180px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .botao-confirmar:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+.butao{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #2d2d2d;
+    flex-direction: row;
+}
+.brilho{
+    width: 20px;
+    height: 20.2;
+    padding-left: 28px;
+    padding-top: 4px;
+}
+.CONFIRMAR{
+    width: 90px;
+    color: #2d2d2d;
+    font-size: 20px;
+}
+@media (max-width: 863px){
+  .barra{
+    display: none;
+  }
+  .segundo-cabeçalho{
+    gap: 30px;
+  }
+  .logo{
+    display: none;
+  }
+  .visao-geral{
+    padding: 0%;
+    display: flex;
+    justify-content:center;
+  }
+
+}
+.projeto:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}

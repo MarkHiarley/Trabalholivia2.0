@@ -74,6 +74,12 @@
     font-size: 16px;
     font-family: "jost", sans-serif;
 }
+.lab{
+    padding-left: 7px;
+}
+.email{
+    padding-bottom: 9px;
+}
 input[type="password"] {
     position: relative;
   }
@@ -105,3 +111,20 @@ input[type="email"]::placeholder {
     }
     
   }
+
+  .logo:hover{
+    transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.butaologin:hover{
+    transform: scale(1.05);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+.butaologinparacadastro:hover{
+    transform: scale(1.1);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
