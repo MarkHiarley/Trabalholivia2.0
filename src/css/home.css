@@ -155,7 +155,7 @@
 
 .img1,
 .img2 {
-  padding-bottom: 15px;
+  padding-bottom: 5px;
 
 
 }
@@ -329,10 +329,11 @@ body {
 .img4 {
     width: 34.4%;
     height: 400px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     border-radius: 2px;
   }
 .imagens-ocultas{
   display: flex;
   justify-content: center;
+  display: none;
 }
