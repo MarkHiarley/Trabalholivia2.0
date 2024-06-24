@@ -19,3 +19,9 @@ document.getElementById('botaojs').addEventListener('click', function() {
       textElement.textContent = "VER MAIS";
   }
 });
+
+document.getElementById('botaojs').addEventListener('click', function() {
+    var element = document.getElementById('imagens-ocultas');
+    element.classList.toggle('visible');
+  });
+  
