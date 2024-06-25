@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="/src/css/home.css">
-    <link rel="stylesheet" href="/src/css/reset.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/reset.css">
 
     <head charset="utf-8">
         <title>Consultoria Livya Martins</title>
@@ -21,18 +21,17 @@
     <header class="cabeçalho">
         <ul class="menu">
             <li class="li1">SOBRE</li>
-            <a href="/pages/projetcs/projeto.html" class="ancoras" style="color:white;">
+            <a href="./projeto.html" class="ancoras" style="color:white;">
                 <li class="li2">PROJETOS</li>
             </a>
-            <li class="li3">AJUDA</li>
-            <a href="/pages/login/login.html" class="ancoras" style="color:white;">
+            <a href="./login.html" class="ancoras" style="color:white;">
                 <li class="li4">LOGIN</li>
             </a>
         </ul>
     </header>
     <br>
     <div class="segundo-cabeçalho">
-        <img src="/src/img/logo.png" class="logo-cabeçalho">
+        <img src="./img/logo.png" class="logo-cabeçalho">
         </i">
         <br>
 
@@ -50,7 +49,7 @@
                 <p>Redefinindo o Conceito de <br> Lar na Serra da ibiapaba</p>
                 <h1>Livia Martíns</h1>
             </div>
-            <img src="/src/img/foto mulher.png" class="foto-mulher">
+            <img src="./img/foto mulher.png" class="foto-mulher">
         </div>
         <br>
         <div class="container">
@@ -67,22 +66,28 @@
             <h1 class="titulo-projetos">Trabalhos recentes</h1>
         </div>
         <div class="imagem-projetos">
-            <img src="/src/img/projeto 1.webp" class="img1">
-            <img src="/src/img/projeto 2.webp" class="img2">
-
+            <img src="./img/projeto 1.webp" class="img1">
+            <img src="./img/projeto 2.webp" class="img2">
         </div>
-        <div class="vermais">
-            <p class="textovermais">VER MAIS</p>
+        <div class="imagens-ocultas" id="imagens-ocultas">
+            <img src="./img/projeto 2.webp" class="img3">
+            <img src="./img/projeto 1.webp" class="img4">
+        </div>
+
+
+
+        <div class="vermais" id="botaojs">
+            <p class="textovermais" id="vermais">VER MAIS</p>
         </div>
 
         <div class="oferta">
 
             <h1 class="anuncio">Gostou de algum projeto? <br> Marque uma reunião</h1>
 
-            <a href="/pages/reuniao/reuniao.html">
+            <a href="./reuniao.html">
                 <div class="butau">
 
-                    <div href=""><button class="botaodebaixo">CLICANDO AQUI <img src="/src/img/brilho.webp"
+                    <div href=""><button class="botaodebaixo">CLICANDO AQUI <img src="./img/brilho.webp"
                                 class="brilho"></button>
             </a>
 
@@ -100,9 +105,9 @@
                 </p>
                 <div class="barra-curta-rodape-contatos"> </div>
                 <ul>
-                    <li> <img src="/src/img/telefoneicon.webp" class="icon">Telefone: (88) XXXXX-XXXX</li>
-                    <li> <img src="/src/img/mail.webp" class="icon">: liviamartins.ouvidoria@hotmail.com</li>
-                    <li> <img src="/src/img/local.webp" class="icon">: Av. 11 de Março, 2011 <br> - Aeroporto, Tianguá -
+                    <li> <img src="./img/telefoneicon.webp" class="icon">Telefone: (88) XXXXX-XXXX</li>
+                    <li> <img src="./img/mail.webp" class="icon">: liviamartins.ouvidoria@hotmail.com</li>
+                    <li> <img src="./img/local.webp" class="icon">: Av. 11 de Março, 2011 <br> - Aeroporto, Tianguá -
                         CE,
                         62320-000</li>
                 </ul>
@@ -113,9 +118,9 @@
             <div class="redesociais">
                 <p class="redes-sociais">Redes Sociais</p>
                 <div class="barra-curta-rodape"> </div>
-                <img src="/src/img/facebook.webp" class="iconsocial">
-                <img src="/src/img/insta.webp" class="iconsocial">
-                <img src="/src/img/telegram.webp" class="iconsocial">
+                <img src="./img/facebook.webp" class="iconsocial">
+                <img src="./img/insta.webp" class="iconsocial">
+                <img src="./img/telegram.webp" class="iconsocial">
                 </img>
             </div>
 
@@ -123,13 +128,18 @@
             <div class="metodos-de-pagamentos">
                 <p class="pagamentos">Bandeiras que aceitamos</p>
                 <div class="barra-curta-rodape-pagamentos"> </div>
-                <img src="/src/img/american.webp" class="iconpaga">
-                <img src="/src/img/visa.webp" class="iconpaga">
-                <img src="/src/img/elo.webp" class="iconpaga">
-                <img src="/src/img/mastercard.webp" class="iconpaga">
+                <img src="./img/american.webp" class="iconpaga">
+                <img src="./img/visa.webp" class="iconpaga">
+                <img src="./img/elo.webp" class="iconpaga">
+                <img src="./img/mastercard.webp" class="iconpaga">
             </div>
 
         </footer>
+        <script src="./js/doc.js">
+
+        </script>
+
+
 </body>
 
 </html>
