@@ -139,6 +139,8 @@
     width: 80%;
   }
 
+  .img3
+  .img4
   .img1,
   .img2 {
     width: 80%;
@@ -153,7 +155,7 @@
   
 
 }
-
+.imagens-ocultas,
 .img1,
 .img2 {
   padding-bottom: 5px;
@@ -324,6 +326,7 @@ body {
   gap: 5px;
   display: none;
   padding-left: 15.44%;
+  flex-wrap: wrap;
 }
 
 .img3,
@@ -356,7 +359,7 @@ body {
 @media (max-width: 1000px){
     .imagens-ocultas{
         display: flex;
-        flex-direction: column;
+        
     }
 }
 
